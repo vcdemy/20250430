@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Earth with NASA WorldWind</title>
+    <link rel="stylesheet" href="worldwind.css">
+    <!-- 引入 WorldWind 庫 -->
+    <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>3D Earth Explorer</h1>
+        <div id="globe"></div>
+        <div class="controls">
+            <button id="resetView">重置視角</button>
+            <button id="toggleAtmosphere">切換大氣層</button>
+        </div>
+    </div>
+    <script src="worldwind.js"></script>
+</body>
+</html> 
